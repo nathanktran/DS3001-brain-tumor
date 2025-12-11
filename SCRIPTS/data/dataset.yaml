@@ -1,0 +1,15 @@
+# Brain Tumor Dataset Configuration for YOLO
+# Dataset path (absolute path)
+path: 'C:/Users/trann/OneDrive/Documents/Brain-Tumor-DS4002/DATA'
+
+# Train and validation image directories (relative to 'path')
+train: 'images/train'
+val: 'images/val'
+
+# Number of classes
+nc: 2
+
+# Class names
+names:
+  0: 'negative'  # No tumor
+  1: 'positive'  # Tumor present

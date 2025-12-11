@@ -1,0 +1,54 @@
+# Enhanced YOLOv11 Brain Tumor Detection Requirements
+# Includes additional dependencies for attention mechanisms and advanced preprocessing
+
+# Core ML/DL frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.200
+
+# Computer Vision and Image Processing  
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Machine Learning Utils
+scikit-learn>=1.3.0
+albumentations>=1.3.0
+
+# Data Handling
+PyYAML>=6.0
+tqdm>=4.65.0
+pathlib2>=2.3.0
+
+# Development Utils
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Enhanced Dependencies for Research Implementations
+# Attention mechanisms and advanced loss functions
+einops>=0.6.0          # For tensor operations in attention
+timm>=0.9.0            # Pre-trained models and utilities
+torchinfo>=1.8.0       # Model architecture analysis
+
+# Medical Image Processing
+SimpleITK>=2.3.0       # Advanced medical image processing
+nibabel>=5.1.0         # Neuroimaging data handling
+pydicom>=2.4.0         # DICOM file handling
+
+# Advanced Visualization
+wandb>=0.15.0          # Experiment tracking
+tensorboard>=2.13.0    # Training visualization
+
+# Performance Optimization
+numba>=0.57.0          # JIT compilation for speed
+psutil>=5.9.0          # System monitoring

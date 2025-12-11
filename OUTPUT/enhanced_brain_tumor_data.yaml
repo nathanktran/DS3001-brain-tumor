@@ -1,0 +1,8 @@
+names:
+  0: negative
+  1: positive
+nc: 2
+path: /u/ddz2sb/Brain-Tumor-DS4002/DATA
+test: images/test
+train: images/train
+val: images/val

@@ -1,0 +1,3 @@
+﻿# Large model weights
+OUTPUT/yolov11m_enhanced/weights/*.pt
+*.pt
